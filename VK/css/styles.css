@@ -1,33 +1,73 @@
+*{
+	margin: 0px;
+   padding: 0px;
+}
 
 body {
-    background: #EDEEF0;	
-    color: #000;
-    margin: 0px;
-    padding: 0px;
-    direction: ltr;
-    font-size: 13px;
-    font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
-    line-height: 1.154;
-    font-weight: 400;
-    -webkit-font-smoothing: subpixel-antialiased;
-    -moz-osx-font-smoothing: auto;
+	background: #EDEEF0;	
+	color: #000;
+	direction: ltr;
+	font-size: 13px;
+	font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+	line-height: 1.154;
+	font-weight: 400;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: auto;
+	height: 2000px;
+}
+
+#pageLayout{
+	display: block;
+	width: 960px;
+	margin: 0px auto;
+}
+
+/*Header BEGIN*/
+#fullWidthHeader{
+	position: fixed;
+	height: 42px;
+	width: 100%;
+	background: #507299;
+	margin-top: 0px;
 }
 
 header{
-	height: 41px;
+	position: fixed;
+	height: 42px;
 	width: 100%;
-	color: green;
 	margin-top: 0px;
 	margin-bottom: 14px;
 	background: #507299;
+}
+
+#vkLogoConteiner{
+	/*display: block;*/
+	position: fixed;
+	margin-left: 0px;
+	margin-top: 0px;
+	height: 42px;
+	width: 165px;
+	background: blue;
 }
 
 #vkLogo{
 	/*display: block;*/
 	height: 19px;
 	width: 32px;
+	position: relative;
 	margin: 11px 10px 0 0;
 	cursor: pointer;
 	background:  url(images/head_icons.png) no-repeat;
+	/*background:  red;*/
 	background-position: 0 -98px;
+	background-origin: initial;
 }
+
+#searchConteiner{
+	display: block;
+	margin-left:190px;
+	height: 42px;
+	width: 230px;
+	background: #ffdd33;
+}
+/*Header END*/
