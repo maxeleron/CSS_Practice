@@ -47,20 +47,23 @@ header{
 	margin-top: 0px;
 	height: 42px;
 	width: 165px;
-	background: blue;
+	cursor: pointer;
 }
 
 #vkLogo{
-	/*display: block;*/
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-image: url(../images/head_icons.png);
+	background-origin: padding-box;
+	background-position: 0px -98px;
+	background-size: auto;
+	direction: ltr;
+	display: block;
 	height: 19px;
 	width: 32px;
-	position: relative;
-	margin: 11px 10px 0 0;
-	cursor: pointer;
-	background:  url(images/head_icons.png) no-repeat;
-	/*background:  red;*/
-	background-position: 0 -98px;
-	background-origin: initial;
+	margin: 11px 10px 0px 0px;
+	text-align:	left;
+	-webkit-font-smoothing: subpixel-antialiased;
 }
 
 #searchConteiner{
