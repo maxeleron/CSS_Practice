@@ -74,3 +74,10 @@ header{
 	background: #ffdd33;
 }
 /*Header END*/
+/*Left Aside BEGIN*/
+hr{
+	color: #f00;
+	background-color: #;
+	height: 5px;
+}
+/*Left Aside END*/
