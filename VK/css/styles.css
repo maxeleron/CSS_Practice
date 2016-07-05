@@ -75,9 +75,49 @@ header{
 }
 /*Header END*/
 /*Left Aside BEGIN*/
+#asideLeft{
+	width: 149px;
+	height: 269px;
+}
+
+#navigation{
+	margin-top: 43px;
+	position: relative;
+}
+
+.icon{
+	display: block;
+	width: 35px;
+	background-image: url(../images/menu_icon.png);
+	background-origin: padding-box;
+	background-position: 7px 6px;
+	background-repeat: no-repeat;
+	height: 25px;
+	float: left;
+}
+
+.navItem{
+	display: block;
+	padding-left: 33px;
+	padding-top: 7px;
+	height: calc(28 - 7)px;
+	width: calc(157 - 33)px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-origin: padding-box;
+	/*Font and Text BEGIN*/
+	color: #285473;
+	/*Font and Text END*/
+	margin-left: -5px;
+}
+
+#navItemProfile{
+	background-image: url(../images/menu_icon.png);
+	background-position: 7px 6px;
+}
 hr{
 	color: #f00;
-	background-color: #;
-	height: 5px;
+	background-color: #000;
+	height: 1px;
 }
 /*Left Aside END*/
