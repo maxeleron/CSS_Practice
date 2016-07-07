@@ -83,17 +83,8 @@ header{
 #navigation{
 	margin-top: 43px;
 	position: relative;
-}
-
-.icon{
-	display: block;
-	width: 35px;
-	background-image: url(../images/menu_icon.png);
-	background-origin: padding-box;
-	background-position: 7px 6px;
-	background-repeat: no-repeat;
-	height: 25px;
-	float: left;
+	padding-bottom: 34px;
+	border-bottom: 1px solid #E2E6E9;
 }
 
 .navItem{
@@ -102,22 +93,39 @@ header{
 	padding-top: 7px;
 	height: calc(28 - 7)px;
 	width: calc(157 - 33)px;
-	position: relative;
+
+	/*Icon BEGIN*/
 	background-repeat: no-repeat;
 	background-origin: padding-box;
+	background-image: url(../images/menu_icon.png);
+
 	/*Font and Text BEGIN*/
 	color: #285473;
-	/*Font and Text END*/
+
+	/*Posititon BEGIN*/
 	margin-left: -5px;
+	position: relative;
 }
 
 #navItemProfile{
-	background-image: url(../images/menu_icon.png);
 	background-position: 7px 6px;
 }
-hr{
-	color: #f00;
-	background-color: #000;
-	height: 1px;
+#navItemNews{
+	background-position: 7px -917px;
+}
+#navItemMessages{
+	background-position: 7px -21px;
+}
+#navItemFriends{
+	background-position: 7px -77px;
+}
+#navItemCommunities{
+	background-position: 7px -105px;
+}
+#navItemAudios{
+	background-position: 7px -161px;
+}
+#navItemDocuments{
+	background-position: 7px -273px;
 }
 /*Left Aside END*/
