@@ -88,23 +88,33 @@ header{
 }
 
 .navItem{
+	/*View*/
 	display: block;
-	padding-left: 33px;
-	padding-top: 7px;
 	height: calc(28 - 7)px;
 	width: calc(157 - 33)px;
 
-	/*Icon BEGIN*/
+	/*Content position*/
+	padding-left: 33px;
+	padding-top: 7px;
+	padding-bottom: 4px;
+
+	/*Icon*/
 	background-repeat: no-repeat;
 	background-origin: padding-box;
 	background-image: url(../images/menu_icon.png);
 
-	/*Font and Text BEGIN*/
+	/*Font and Text*/
 	color: #285473;
 
-	/*Posititon BEGIN*/
+	/*Posititon*/
 	margin-left: -5px;
 	position: relative;
+
+	/*Others*/
+	cursor: pointer;
+}
+.navItem:hover{
+	background-color: #E1E5EB;
 }
 
 #navItemProfile{
@@ -127,5 +137,18 @@ header{
 }
 #navItemDocuments{
 	background-position: 7px -273px;
+}
+
+#oldVersion{
+	color: #939393;
+	font-size: 11.83px;
+	text-align: left;
+	margin-top: 15px;
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+#oldVersion:hover{
+	text-decoration: underline;
 }
 /*Left Aside END*/
