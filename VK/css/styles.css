@@ -91,8 +91,8 @@ header{
 	background: inherit; 
 	/*color: red;*/
 }
-input[placeholder]{
-	
+span{
+	color: red;
 }
 #searchLine:focus{
 	background: white;
@@ -103,6 +103,7 @@ input[placeholder]{
 #asideLeft{
 	width: 149px;
 	height: 269px;
+	float: left;
 }
 
 #navigation{
@@ -182,3 +183,48 @@ input[placeholder]{
 	text-decoration: underline;
 }
 /*Left Aside END*/
+/*Right Aside BEGIN*/
+#asideRight{
+	margin-top: 43px;
+	margin-left: 710px;
+	float: right;
+	background: yellow;
+	position: fixed;
+}
+
+#menu{
+	width: 226px;
+	height: 256px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background: #FFF;
+	cursor: pointer;
+	color: #2A5885;
+}
+
+.menuItem{
+	border-left: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	height: 32px;
+	line-height: 31px;
+	font-size: 13px;
+	padding-left: 20px;
+}
+.menuItem:hover{
+	background: #F5F7FA;
+}
+
+.subMenuItem{
+	padding-left: 32px;
+	height: 32px;
+	line-height: 31px;
+}
+.subMenuItem:hover{
+	background: #F5F7FA;
+}
+
+#menuNews{
+	border-left: 2px solid #6285AF;
+	background: #F5F7FA;
+}
+/*Right Aside END*/
