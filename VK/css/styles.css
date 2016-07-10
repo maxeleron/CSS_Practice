@@ -32,13 +32,14 @@ body {
 	margin-top: 0px;
 }
 
-header{
+#pageHeader{
 	position: fixed;
 	height: 42px;
 	width: 100%;
 	margin-top: 0px;
 	margin-bottom: 14px;
 	background: #507299;
+	z-index: 3;
 }
 
 #vkLogoConteiner{
@@ -92,9 +93,6 @@ header{
 	background: inherit; 
 	/*color: red;*/
 }
-span{
-	color: red;
-}
 #searchLine:focus{
 	background: white;
 }
@@ -105,6 +103,7 @@ span{
 	width: 149px;
 	height: 269px;
 	float: left;
+	z-index: 1;
 }
 
 #navigation{
@@ -191,11 +190,23 @@ span{
 	margin-left: 15px;
 	margin-right: 15px;
 	float: left;
-	background: red;
+}
+
+#myNewPost{
+	width: 550px;
+	height: 50px;	
+	margin-top: 57px;
+	background-color: yellow;
+	border-radius: 2px;
 }
 
 .post{
-	
+	width: 550px;
+	height: 400px;
+	background-color: #FFF;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
 }
 /*Main END*/
 /*Right Aside BEGIN*/
