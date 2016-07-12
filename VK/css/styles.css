@@ -208,6 +208,16 @@ body {
 	margin-bottom: 15px;
 	border-radius: 2px;
 }
+
+.publicationDate{
+	color: #939393;
+	font-size: 12.5px;
+	text-align: left;
+	cursor: pointer;
+}
+.publicationDate:hover{
+	text-decoration: underline;
+}
 /*Main END*/
 /*Right Aside BEGIN*/
 #asideRight{
