@@ -209,6 +209,15 @@ body {
 	border-radius: 2px;
 }
 
+.authorName{
+	color: #42648B;
+	font-size: 13px;
+	font-weight: 500;
+}
+.authorName:hover{
+	text-decoration: underline;
+}
+
 .publicationDate{
 	color: #939393;
 	font-size: 12.5px;
