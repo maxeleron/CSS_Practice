@@ -213,6 +213,10 @@ body {
 	padding-bottom: 3px;
 }
 
+.post footer{
+	height: 47px;
+}
+
 .likePost{
 	float: left;
 }
