@@ -88,8 +88,8 @@ body {
 
 #searchLine{
 	height: 16px;
-	border: none;
-	outline: none;
+	border: 0px;
+	outline: 0px;
 	background: inherit; 
 	/*color: red;*/
 }
@@ -198,6 +198,16 @@ body {
 	background-color: #FFF;
 	border-radius: 2px;
 }
+#userLogoMini{
+	display: block;
+	width: 28px;
+	height: 28px;
+	background-image: url(../images/maxLogo.jpg);
+}
+#myNewPost input{
+	border: 0px;
+	outline: 0px;
+}
 
 .post{
 	width: 510px;
@@ -228,6 +238,7 @@ body {
 	float: right;
 	color:#2a5885;
 	line-height: 14px;
+	cursor: pointer;
 }
 .commentPost:hover{
 	color:#2a5885;
