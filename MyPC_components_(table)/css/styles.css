@@ -19,7 +19,7 @@ table {
 
 tr {
 	height: 30px;
-	background: #4ED963;
+	background: #ADEB96;
 }
 
 td, th {
@@ -31,15 +31,15 @@ td {
 }
 
 .headRow {
-	background: orange;
+	background: #3FB551;
 }
 
 .summText {
-	background: orange;
+	background: #3FB551;
 	text-align: right;
 	
 }
 
 .summCalc {
-	background: orange;
+	background: #3FB551;
 }
