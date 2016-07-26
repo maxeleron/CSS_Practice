@@ -1,3 +1,4 @@
+/*All document BEGIN*/
 *{
 	margin: 0px;
    padding: 0px;
@@ -12,7 +13,8 @@ body {
 	line-height: 16px;
 	font-weight: 400;
 }
-
+/*All document END*/
+/*Table BEGIN*/
 caption {
 	font-size: 20px;
 	font-weight: 400;
@@ -62,18 +64,13 @@ td {
 .componentName {
 	width: 122px;
 }
-.minRequirements {
+.minRequirements {}
 
-}
+.example {}
 
-.example {
-	
-}
-
-.linkToExample {
-	/*width: 195px;*/
-}
+.linkToExample {/*width: 195px;*/}
 
 .price {
 	width: 109px;
 }
+/*Table END*/
