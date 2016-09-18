@@ -266,10 +266,13 @@ body {
 /*Main END*/
 /*Right Aside BEGIN*/
 #asideRight{
-	margin-top: 53px;
-	margin-left: 729px;
-	float: left;
-	position: fixed;
+	margin-top: 57px;
+	margin-left: 15px;
+	display: inline-block;
+	/*float: left;
+	position: fixed;*/
+	position: absolute;
+	/*top: 20px;*/
 }
 
 #menu{
