@@ -1,0 +1,76 @@
+/*All document BEGIN*/
+*{
+	margin: 0px;
+   padding: 0px;
+}
+
+body {
+	background: #EDEEF0;	
+	color: #000;
+	direction: ltr;
+	font-size: 16px;
+	font-family: Roboto,sans-serif;
+	line-height: 16px;
+	font-weight: 400;
+}
+/*All document END*/
+/*Table BEGIN*/
+caption {
+	font-size: 20px;
+	font-weight: 400;
+	color: #023F32;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+table {
+	margin: 30px auto 20px;
+}
+
+tr {
+	height: 30px;
+	background: #ADEB96;
+}
+
+td, th {
+	padding: 6px 8px;
+	font-weight: 400;
+}
+td {
+	text-align: center;
+}
+
+.headRow {
+	background: #3FB551;
+}
+
+.sumText {
+	background: #3FB551;
+	text-align: right;
+	
+}
+
+.linkToExample a{
+	color: #004163;
+}
+.linkToExample a:hover{
+	color: #E80C7A;
+}
+
+.sumCalc {
+	background: #3FB551;
+}
+
+.componentName {
+	width: 122px;
+}
+.minRequirements {}
+
+.example {}
+
+.linkToExample {/*width: 195px;*/}
+
+.price {
+	width: 109px;
+}
+/*Table END*/
